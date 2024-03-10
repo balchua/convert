@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Document>
+    <BkToCstmrStmt>
+        <GrpHdr>
+            <MsgId>235549650</MsgId>
+            <CreDtTm>2023-10-05T14:43:51.979</CreDtTm>
+            <MsgRcpt>
+                <Nm>Test Client Ltd.</Nm>
+                <Id>
+                    <OrgId>
+                        <Othr>
+                            <Id>test001</Id>
+                        </Othr>
+                    </OrgId>
+                </Id>
+            </MsgRcpt>
+        </GrpHdr>
+        <Stmt>
+            <Id>258158850</Id>
+            <ElctrncSeqNb>1</ElctrncSeqNb>
+            <LglSeqNb>1</LglSeqNb>
+            <CreDtTm>2023-10-05T14:43:52.098</CreDtTm>
+            <FrToDt>
+                <FrDtTm>2023-09-31T20:00:00.000</FrDtTm>
+                <ToDtTm>2023-10-01T19:59:59.000</ToDtTm>
+            </FrToDt>
+            <Acct>
+                <Id>
+                    <Othr>
+                        <Id>DD01100056869</Id>
+                    </Othr>
+                </Id>
+                <Tp>
+                    <Prtry>IBDA_DDA</Prtry>
+                </Tp>
+                <Ccy>USD</Ccy>
+                <Nm>Sample Name 123</Nm>
+                <Svcr>
+                    <FinInstnId>
+                        <BIC>GSCRUS30</BIC>
+                        <Nm>Goldman Sachs Bank</Nm>
+                    </FinInstnId>
+                </Svcr>
+            </Acct>
+            <Bal>
+                <Tp>
+                    <CdOrPrtry>
+                        <Cd>OPBD</Cd>
+                    </CdOrPrtry>
+                </Tp>
+                <Amt Ccy="USD">843686.20</Amt>
+                <CdtDbtInd>DBIT</CdtDbtInd>
+                <Dt>
+                    <DtTm>2023-09-31T20:00:00.000</DtTm>
+                </Dt>
+            </Bal>
+            <Bal>
+                <Tp>
+                    <CdOrPrtry>
+                        <Cd>CLBD</Cd>
+                    </CdOrPrtry>
+                </Tp>
+                <Amt Ccy="USD">846665.15</Amt>
+                <CdtDbtInd>DBIT</CdtDbtInd>
+                <Dt>
+                    <DtTm>2023-09-31T20:00:00.000</DtTm>
+                </Dt>
+            </Bal>
+            <Bal>
+                <Tp>
+                    <CdOrPrtry>
+                        <Cd>OPAV</Cd>
+                    </CdOrPrtry>
+                </Tp>
+                <Amt Ccy="USD">334432492.92</Amt>
+                <CdtDbtInd>CRDT</CdtDbtInd>
+                <Dt>
+                    <DtTm>2023-09-31T23:59:00.000Z</DtTm>
+                </Dt>
+            </Bal>
+            <Bal>
+                <Tp>
+                    <CdOrPrtry>
+                        <Cd>CLAV</Cd>
+                    </CdOrPrtry>
+                </Tp>
+                <Amt Ccy="USD">334432401.27</Amt>
+                <CdtDbtInd>CRDT</CdtDbtInd>
+                <Dt>
+                    <DtTm>2023-10-01T23:59:00.000Z</DtTm>
+                </Dt>
+            </Bal>
+            <TxsSummry>
+                <TtlNtries>
+                    <NbOfNtries>14</NbOfNtries>
+                    <Sum>140.00</Sum>
+                    <TtlNetNtryAmt>40.00</TtlNetNtryAmt>
+                    <CdtDbtInd>CRDT</CdtDbtInd>
+                </TtlNtries>
+                <TtlCdtNtries>
+                    <NbOfNtries>9</NbOfNtries>
+                    <Sum>90.00</Sum>
+                </TtlCdtNtries>
+                <TtlDbtNtries>
+                    <NbOfNtries>5</NbOfNtries>
+                    <Sum>50.00</Sum>
+                </TtlDbtNtries>
+            </TxsSummry>
+            <Ntry>
+                <NtryRef>52198201</NtryRef>
+                <Amt Ccy="USD">10.00</Amt>
+                <CdtDbtInd>CRDT</CdtDbtInd>
+                <RvslInd>true</RvslInd>
+                <Sts>BOOK</Sts>
+                <BookgDt>
+                    <DtTm>2023-10-01T13:37:14.000</DtTm>
+                </BookgDt>
+                <ValDt>
+                    <Dt>2023-10-01</Dt>
+                </ValDt>
+                <BkTxCd>
+                    <Prtry>
+                        <Cd>ACH Credit Reject</Cd>
+                    </Prtry>
+                </BkTxCd>
+            </Ntry>
+            <Ntry>
+                <NtryRef>52198251</NtryRef>
+                <Amt Ccy="USD">10.00</Amt>
+                <CdtDbtInd>DBIT</CdtDbtInd>
+                <RvslInd>false</RvslInd>
+                <Sts>BOOK</Sts>
+                <BookgDt>
+                    <DtTm>2023-10-01T13:37:11.000</DtTm>
+                </BookgDt>
+                <ValDt>
+                    <Dt>2023-10-01</Dt>
+                </ValDt>
+                <BkTxCd>
+                    <Prtry>
+                        <Cd>ACH Credit Payment</Cd>
+                    </Prtry>
+                </BkTxCd>
+            </Ntry>
+        </Stmt>
+    </BkToCstmrStmt>
+</Document>

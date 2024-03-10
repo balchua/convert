@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Document>
+    <BkToCstmrStmt>
+        <GrpHdr>
+            <MsgId>235549650</MsgId>
+            <CreDtTm>2023-10-05T14:43:51.979</CreDtTm>
+            <MsgRcpt>
+                <Nm>Test Client Ltd.</Nm>
+                <Id>
+                    <OrgId>
+                        <Othr>
+                            <Id>test001</Id>
+                        </Othr>
+                    </OrgId>
+                </Id>
+            </MsgRcpt>
+        </GrpHdr>
+        <Stmt>
+            <Id>258158850</Id>
+            <ElctrncSeqNb>1</ElctrncSeqNb>
+            <LglSeqNb>1</LglSeqNb>
+            <CreDtTm>2023-10-05T14:43:52.098</CreDtTm>
+            <FrToDt>
+                <FrDtTm>2023-09-31T20:00:00.000</FrDtTm>
+                <ToDtTm>2023-10-01T19:59:59.000</ToDtTm>
+            </FrToDt>
+            <Acct>
+                <Id>
+                    <Othr>
+                        <Id>DD01100056869</Id>
+                    </Othr>
+                </Id>
+                <Tp>
+                    <Prtry>IBDA_DDA</Prtry>
+                </Tp>
+                <Ccy>USD</Ccy>
+                <Nm>Sample Name 123</Nm>
+                <Svcr>
+                    <FinInstnId>
+                        <BIC>GSCRUS30</BIC>
+                        <Nm>Goldman Sachs Bank</Nm>
+                    </FinInstnId>
+                </Svcr>
+            </Acct>
+            <Bal>
+                <Tp>
+                    <CdOrPrtry>
+                        <Cd>OPBD</Cd>
+                    </CdOrPrtry>
+                </Tp>
+                <Amt Ccy="USD">843686.20</Amt>
+                <CdtDbtInd>DBIT</CdtDbtInd>
+                <Dt>
+                    <DtTm>2023-09-31T20:00:00.000</DtTm>
+                </Dt>
+            </Bal>
+        </Stmt>
+    </BkToCstmrStmt>
+</Document>
